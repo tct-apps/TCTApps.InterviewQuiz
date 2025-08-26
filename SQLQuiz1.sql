@@ -18,6 +18,6 @@ CREATE TABLE Tickets (
 1. Write a query to find the customer(s) who book the most ticket.
 2. Write an index to improve the query below
 
-    SELECT * FROM Orders WHERE CustomerId = 5 AND OrderDate >= '2025-01-01';
+    SELECT * FROM Tickets WHERE CustomerId = 5 AND BookingDate >= '2025-01-01';
 
 */
